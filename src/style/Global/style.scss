@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-image: url("../../images/background.jpg");
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 100vh;
+
+  h2 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+  }
+}
+
+.content {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  box-shadow: 6px 6px #0003;
+  background-color: rgb(236, 236, 236);
+  max-width: 450px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input {
+  outline: none;
+  padding: 16px 20px;
+  width: 80%;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #c8c8c9;
+  border: none;
+}
+
+.button {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  background-color: $button_color;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  max-width: 150px;
+}
+
+label {
+  font-size: 22px;
+  font-weight: 600;
+  color: $text_color;
+}
+
+.labelError {
+  font-size: 14px;
+  color: $error_color;
+}
+
+strong {
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+    color: $text_color;
+  }
+}
